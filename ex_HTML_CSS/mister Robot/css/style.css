@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100;
+    background-color: black;
+}
+main {
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;      
+}
+#tete {
+    height: 120px;
+    background-color: rgb(179, 179, 179);
+}
+#tete .yeux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+#tete .yeux div {
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    border-radius: 50%;
+}
+#tete .bouche {
+    width: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 35px;
+}
+#tete .bouche .coin {
+    width: 7px;
+    height: 3px;
+    background-color: rgb(49, 49, 49);
+}
+#tete .bouche div {
+    height: 3px;
+    width: 50px;
+    background-color: rgb(179, 179, 179);
+    margin: auto;
+}
+
+#espace {
+    height: 20px;
+    background-color: grey;    
+}
+#corps {       
+    height: 230px;   
+    margin: auto;  
+    background-color: rgb(80, 80, 80);    
+}
+#jambes {
+    height: 216px;
+    background-color: rgb(49, 49, 49);    
+}
+article {
+    background-color: white;
+}
+#tete article {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+#espace article {
+    width: 40px;
+    height: 20px;
+    margin: auto;
+}
+.torse {
+    width: 270px;
+    height: 230px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#corps article {
+    width: 150px;
+    height: 230px; 
+    margin: auto;    
+}
+#corps #brasGch {
+    width: 50px;
+    height: 230px;
+    background-color: white;
+}
+#corps #brasDrt {
+    width: 50px;
+    height: 230px;
+    background-color: white;
+}
+#jambes .bas {
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+#jambes article {
+    width: 60px;
+    height: 180px;
+}
+#jambes .pieds {
+    width: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+
+}
+#jambes .pieds div {
+    width: 60px;
+    height: 25px;
+    background-color: white;
+    margin-top: 10px;
+}
